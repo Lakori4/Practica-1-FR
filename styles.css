@@ -1,6 +1,11 @@
+* {
+    font-family: Helvetica;
+}
+
 #header img {
     border-radius: 25%;
 }
+
 
 #enlaces {
     align-items: center;
