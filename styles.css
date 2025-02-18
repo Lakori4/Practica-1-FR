@@ -1,3 +1,12 @@
+#enlaces {
+    align-items: center;
+    text-decoration: none;
+}
+
+#enlaces a {
+    text-decoration: none;
+}
+
 #formacion {
     display: flex;
     flex-direction: row;
