@@ -1,9 +1,67 @@
 <html>
-    <head>
-        <title>Practica 1</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>Practica 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2>Experiencia laboral</h2>
+    <ul style="list-style-type: none;">
+        <li>
+            <header>
+                <div>
+                    <h3>Chief Executive Officer</h3>
+                    <p>nov 2023 - actualidad</p>
+                </div>
+                <div>
+                    <h4>Telefónica Innovación Digital</h4>
+                    <p>As part of Telefonica Chief Digital Rol role, Chema Alonso is also the CEO of Telefonica
+                        Innovación Digital, the global company focused in innovation and development of digital products
+                        & platforms for Telefonica Group. Telefonica Innovacion Digital works with the startup ecosystem
+                        using Wayra and is also launching innovative P&S using TU brand.</p>
+                </div>
+            </header>
+        </li>
+        <li>
+            <header>
+                <div>
+                    <h3>Presidente</h3>
+                    <p>jul 2022 - actualidad </p>
+                </div>
+                <div>
+                    <h4>Wayra</h4>
+                    <p>Presidente del Consejo de Telefónica Open Innovation, matriz de Wayra, división encargada de
+                        impulsar la innovación abierta en la compañía, desde la que se diseñan las inversiones en
+                        startups tecnológicas.</p>
+                </div>
+            </header>
+        </li>
+        <li>
+            <header>
+                <div>
+                    <h3>Productor Ejecutivo</h3>
+                    <p>ene 2012 - actualidad</p>
+                </div>
+                <div>
+                    <h4>Cálico Electrónico</h4>
+                    <p>Búsqueda de sponsors y financiación para sacar adelante el proyecto de Cálico Electrónico, La
+                        Serie Flash.</p>
+                </div>
+            </header>
+        </li>
+    </ul>
+    <div id="formacion">
+        <h2>Formación</h2>
+        <button onclick="mostrar_mas()">Mostras más</button>
+    </div>
+    <p id="formacion_actual"></p>
+</body>
+<script>
+    function mostrar_mas() {
+        document.getElementById("formacion_actual").innerHTML = "Ingeniería informática"
+    }
+</script>
+
+
 </html>
