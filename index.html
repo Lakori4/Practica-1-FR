@@ -108,11 +108,21 @@
         <h2>Formación</h2>
         <button onclick="mostrar_mas()">Mostras más</button>
     </div>
-    <p id="formacion_actual"></p>
+    <header>
+        <div class="experiencia_laboral">
+            <h3 id="formacion_actual"></h3>
+            <p id="fecha_formacion" class = "date"></p>
+        </div>
+        <div>
+            <h4 id="uni_formacion"></h4>
+        </div>
+    </header>
 </body>
 <script>
     function mostrar_mas() {
-        document.getElementById("formacion_actual").innerHTML = "Ingeniería informática Universidad Antonio Nebrija. Fecha: 2022 - 2026"
+        document.getElementById("formacion_actual").textContent = "Ingeniería Informática"
+        document.getElementById("fecha_formacion").textContent = "2022 - 2026"
+        document.getElementById("uni_formacion").textContent = "Universidad Antonio Nebrija"
     }
 </script>
 
