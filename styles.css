@@ -30,16 +30,23 @@
     align-items: center;
 }
 
-body {
-    padding: 2% 20% 10%;
+.date {
+    font-family: monospace;
 }
 
+h1 {
+    padding: 0% 0% 2% 
+}
 ul {
     padding: 0
 }
 
 header {
     padding: 0% 0% 2%;
+}
+
+body {
+    padding: 2% 20% 10%;
 }
 
 h3 {
