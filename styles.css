@@ -22,6 +22,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .experiencia_laboral {
     display: flex;
     flex-direction: row;
@@ -32,3 +33,8 @@
 body {
     padding: 2% 20% 10%;
 }
+
+ul {
+    padding: 0
+}
+
