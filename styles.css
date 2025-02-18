@@ -4,3 +4,13 @@
     justify-content: space-between;
     align-items: center;
 }
+.experiencia_laboral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    padding: 20%;
+}
