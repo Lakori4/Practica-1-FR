@@ -1,3 +1,7 @@
+#header img {
+    border-radius: 25%;
+}
+
 #enlaces {
     align-items: center;
     text-decoration: none;
